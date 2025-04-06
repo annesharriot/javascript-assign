@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+   var name=(prompt("Enter the Student Name"))
+   var id=parseInt(prompt("Enter the Student id"))
+     var m1=parseInt(prompt("Enter the marks of Tamil out of 100"))
+    var m2=parseInt(prompt("Enter the marks of English out of 100"))
+    var m3=parseInt(prompt("Enter the marks of maths out of 100"))
+    var m4=parseInt(prompt("Enter the marks of computer out of 100"))
+    var m5=parseInt(prompt("Enter the marks of science out of 100"))
+    var total=Number(m1)+Number(m2)+Number(m3)+Number(m4)+Number(m5)
+   var percentage=(total*100/500.0);
+
+    document.write(" Student Name=:"+name+"<br>")
+    document.write("Student id=:"+id+"<br>")
+    document.write("Tamil=:"+m1+"<br>")
+    document.write("English=:"+m2+"<br>")
+    document.write("maths=:"+m3+"<br>")
+    document.write("computer=:"+m4+"<br>")
+    document.write("science=:"+m5+"<br>")
+    document.write("total=:"+total+"<br>");
+    document.write("percentage=:"+percentage+ "%"+"<br>")
+    if( percentage>=90){
+        document.write(" you got A Grade")
+    }
+    else if(percentage>=80){
+        document.write(" you got B Grade ")
+    }
+    else if(percentage>=70){
+        document.write(" you got C  Grade ")
+    }
+    else if (percentage>=60){
+        document.write("you got D Grade")
+    }
+    else if(percentage>=50){
+        document.write("you got E grade")
+    }
+    else{
+        document.write(" you are Fail")
+    }
+    
+
+
+    
+    
+    
+
+
+     
+     
+</script>
+
+</body>
+</html>
+    
+</body>
+</html>
